@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bean-definition-profiles:war">
+    <output-path>$PROJECT_DIR$/bean-definition-profiles/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bean-definition-profiles</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bean-definition-profiles.war">
+      <element id="artifact" artifact-name="bean-definition-profiles:war exploded" />
+    </root>
+  </artifact>
+</component>

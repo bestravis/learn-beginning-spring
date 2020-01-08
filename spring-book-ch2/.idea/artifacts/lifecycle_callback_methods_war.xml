@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lifecycle-callback-methods:war">
+    <output-path>$PROJECT_DIR$/lifecycle-callback-methods/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lifecycle-callback-methods</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lifecycle-callback-methods.war">
+      <element id="artifact" artifact-name="lifecycle-callback-methods:war exploded" />
+    </root>
+  </artifact>
+</component>
